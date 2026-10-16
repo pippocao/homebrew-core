@@ -26,7 +26,7 @@ class Qemu < Formula
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
   depends_on "python-setuptools" => :build
-  depends_on "python@3.14" => :build # keep aligned with meson
+  depends_on "python@3.15" => :build # keep aligned with meson
   depends_on "spice-protocol" => :build
 
   depends_on "capstone"
